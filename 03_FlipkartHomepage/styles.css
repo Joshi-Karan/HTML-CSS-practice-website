@@ -10,8 +10,8 @@
 body {
     font-family: 'Roboto', arial, sans-serif;
     text-decoration: none;
-    min-height: 140vh;
-    background: #f1f2f6;
+    /* min-height: 140vh; */
+    background: #edeef3;
 }
 
 .fa {
@@ -143,7 +143,6 @@ body {
     display: inline-block;
     width: 100px;
     height: 25px;
-
 }
 
 .dropdown-content {
@@ -178,24 +177,66 @@ body {
 }
 
 /* StatusBar */
-.status_container{
+
+.status_container {
     margin-top: 10px;
     background: white;
 }
-.statusbar{
+
+.statusbar {
     display: flex;
     justify-content: space-around;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.status{
+
+.status {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 12px;
     cursor: pointer;
 }
-.status img:hover{
+
+.status img:hover {
     width: 68px;
     padding-bottom: 0px;
+}
+
+/* Advertisement Container */
+
+.advertisement_container {
+    height: 50vh;
+    margin-top: 10px;
+    background-image: url(Images/img13.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Sales container */
+
+.sales_container {
+    height: 60vh;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: max-content auto;
+    justify-content: center;
+}
+
+.sales_container p {
+    justify-self: center;
+    padding: 5px;
+}
+
+.sales_items {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.sales_img {
+    height: 50vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
