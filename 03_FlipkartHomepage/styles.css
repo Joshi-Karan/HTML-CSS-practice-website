@@ -1,3 +1,5 @@
+/* My github: karanforprogram1 */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
     margin: 0;
@@ -10,7 +12,6 @@
 body {
     font-family: 'Roboto', arial, sans-serif;
     text-decoration: none;
-    /* min-height: 140vh; */
     background: #edeef3;
 }
 
@@ -217,10 +218,12 @@ body {
 
 .sales_container {
     height: 60vh;
-    border: 2px solid black;
     display: grid;
     grid-template-rows: max-content auto;
     justify-content: center;
+    color: #7a7c82;
+    background-color: white;
+    margin-top: 10px;
 }
 
 .sales_container p {
@@ -239,4 +242,24 @@ body {
     height: 50vh;
     margin-left: 1vw;
     margin-right: 1vw;
+}
+
+/* Product Bar */
+
+.product_bar {
+    width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin-top: 10px;
+    background-color: white;
+}
+
+.product_bar img {
+    max-width: 100%;
+    padding: 10px;
+}
+
+.product_bar img:hover{
+    padding: 0px;
 }
